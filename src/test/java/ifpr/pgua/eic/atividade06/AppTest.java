@@ -596,7 +596,7 @@ public class AppTest
         estacionamento.registraEntrada("AAA-1122");
         estacionamento.registraEntrada("CCC-1122");
 
-        List<Veiculo> estacionados = estacionamento.listaVeiculosEstacionados();
+        ArrayList<Veiculo> estacionados = estacionamento.listaVeiculosEstacionados();
 
         assertEquals(2, estacionados.size(),"A lista de veiculos estacionados está incorreta");
     }
